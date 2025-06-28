@@ -27,7 +27,7 @@ payment_data = load_json(PAYMENT_FILE, {})
 
 # ---------- Streamlit Setup ----------
 st.set_page_config(page_title="Spice Billing App", layout="wide")
-st.title(" Sai Sai Spices 🌶️ Billing Application")
+st.title(" Sai Sai Spices Billing Application 🌶️")
 
 tab1, tab2, tab3, tab4 = st.tabs([
     "🧾 Billing", 
